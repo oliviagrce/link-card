@@ -7,4 +7,27 @@ html {
   box-sizing: inherit;
 }
 
-font-family: 'Dosis', sans-serif;
+h2 {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  color: #512200;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+}
+
+div {
+  background-color: #cabdb2;
+  border-width: 3px;
+  border-radius: 3px 8px;
+  border-style: solid;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+.btn {
+  border: 2px;
+}
