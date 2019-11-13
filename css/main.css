@@ -54,7 +54,7 @@ p {
   border-right: 0;
   border-style: solid;
   border-color: #9a816d;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 dl {
