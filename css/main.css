@@ -48,20 +48,6 @@ p {
   text-decoration: none;
 }
 
-dl {
-  font-family: Georgia, sans-serif;
-  color: #785439;
-  font-size: .875rem;
-}
-
-dt {
-  display: inline;
-}
-
-dd {
-  display: inline;
-}
-
 .chart {
   border-top: 2px;
   border-bottom: 2px;
@@ -69,6 +55,37 @@ dd {
   border-right: 0;
   border-style: solid;
   border-color: #9a816d;
+  padding: 1rem;
+}
+
+dl {
+  font-family: Georgia, sans-serif;
+  color: #785439;
+  font-size: .875rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+
+}
+
+dd {
+  font-style: italic;
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-wrap {
+  padding: 1rem 4rem;
 }
 
 .btn {
