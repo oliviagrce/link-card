@@ -12,9 +12,9 @@ a {
   text-decoration: none;
 }
 
-a.link-card {
+.link-card {
   text-decoration: none;
-  display: inline-block;
+  display: block;
   background-color: #dcd4cd;
   border-width: 3px;
   border-radius: 3px;
@@ -23,8 +23,12 @@ a.link-card {
   padding: 1rem;
 }
 
-a.link-card:hover {
+.link-card:hover {
   background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #785439;
 }
 
 h2 {
@@ -47,6 +51,7 @@ p {
 dl {
   font-family: Georgia, sans-serif;
   color: #785439;
+  font-size: .875rem;
 }
 
 .chart {
@@ -69,8 +74,4 @@ dl {
   border-style: none;
   font-weight: bolder;
   font-size: 1.125rem;
-}
-
-a.link-card .btn {
-  background-color: #785439;
 }
