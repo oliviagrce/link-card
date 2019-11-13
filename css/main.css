@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-.link-card {
+.border {
   text-decoration: none;
   display: inline-block;
   background-color: #dcd4cd;
@@ -23,30 +23,18 @@ a {
   padding: 1rem;
 }
 
-a.link-card {
-  display: inline-block;
-  background-color: #dcd4cd;
-  border-width: 3px;
-  border-radius: 3px;
-  border-style: solid;
-  border-color: #9a816d;
-  padding: 1rem;
-}
-
-.link-card:hover {
-  background-color: #cabdb2;
-}
-
 a.link-card .btn {
   background-color: #785439;
+  text-decoration: none;
 }
 
-.link-card h2 {
+h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   color: #512200;
   display: block;
   margin: 0;
+  text-decoration: none;
 }
 
 p {
@@ -62,24 +50,25 @@ dl {
   color: #785439;
 }
 
-.btn {
-  border-width: 2px;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  width: auto;
-  background-color: #9a816d;
-  border-radius: 8px;
-  border-style: none;
+hr {
+  color: #9a816d;
 }
 
-a.btn {
-  background-color: #785439;
-  padding: 0;
-  text-decoration: none;
+.learn {
+  text-decoration: center;
+  background-color: #9a816d;
+  padding: .4em .75em .5em;
   text-align: center;
-  color: #fff;
+  display: block;
   font-family: Dosis, sans-serif;
-  font-weight: bold;
+  color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  font-weight: bolder;
   font-size: 1.125rem;
+}
+
+.learn:hover {
+  text-decoration: center;
+  background-color: #785439;
 }
