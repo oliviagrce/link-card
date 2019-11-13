@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-.border {
+a.link-card {
   text-decoration: none;
   display: inline-block;
   background-color: #dcd4cd;
@@ -23,9 +23,8 @@ a {
   padding: 1rem;
 }
 
-a.link-card .btn {
-  background-color: #785439;
-  text-decoration: none;
+a.link-card:hover {
+  background-color: #cabdb2;
 }
 
 h2 {
@@ -50,25 +49,28 @@ dl {
   color: #785439;
 }
 
-hr {
-  color: #9a816d;
+.chart {
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: #9a816d;
 }
 
-.learn {
-  text-decoration: center;
+.btn {
   background-color: #9a816d;
   padding: .4em .75em .5em;
   text-align: center;
   display: block;
   font-family: Dosis, sans-serif;
-  color: #fff;
+  color: #f0eee8;
   border-radius: 8px;
   border-style: none;
   font-weight: bolder;
   font-size: 1.125rem;
 }
 
-.learn:hover {
-  text-decoration: center;
+a.link-card .btn {
   background-color: #785439;
 }
