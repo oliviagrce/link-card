@@ -8,20 +8,40 @@ html {
   box-sizing: inherit;
 }
 
-div {
-  display: inline-block;
-  background-color: #cabdb2;
-  border-width: 3px;
-  border-radius: 3px 8px;
-  border-style: solid;
-  padding: 1rem;
+a {
+  text-decoration: none;
 }
 
 .link-card {
   text-decoration: none;
+  display: inline-block;
+  background-color: #dcd4cd;
+  border-width: 3px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  padding: 1rem;
 }
 
-h2 {
+a.link-card {
+  display: inline-block;
+  background-color: #dcd4cd;
+  border-width: 3px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  padding: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+a.link-card .btn {
+  background-color: #785439;
+}
+
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   color: #512200;
@@ -32,11 +52,37 @@ h2 {
 p {
   font-family: Georgia, sans-serif;
   display: inline-block;
+  font-size: 1rem;
+  color: #785439;
+  text-decoration: none;
 }
 
+dl {
+  font-family: Georgia, sans-serif;
+  color: #785439;
+}
 
 .btn {
   border-width: 2px;
   text-decoration: none;
   text-align: center;
+  display: block;
+  width: auto;
+  background-color: #9a816d;
+  border-radius: 8px;
+  border-style: none;
+}
+
+a.btn {
+  background-color: #785439;
+}
+
+.learn {
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
