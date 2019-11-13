@@ -31,7 +31,7 @@ a {
   background-color: #785439;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   color: #512200;
@@ -54,6 +54,14 @@ dl {
   font-size: .875rem;
 }
 
+dt {
+  display: inline;
+}
+
+dd {
+  display: inline;
+}
+
 .chart {
   border-top: 2px;
   border-bottom: 2px;
@@ -66,12 +74,15 @@ dl {
 .btn {
   background-color: #9a816d;
   padding: .4em .75em .5em;
-  text-align: center;
-  display: block;
   font-family: Dosis, sans-serif;
   color: #f0eee8;
   border-radius: 8px;
   border-style: none;
   font-weight: bolder;
   font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
